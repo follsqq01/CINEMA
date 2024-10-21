@@ -1,0 +1,129 @@
+html {
+background: #EADFC9;
+h1, h2, h3 {
+    font-family: "PEACESANS", sans-serif;
+}
+}
+body {
+    width: 1440px;
+    overflow-x: hidden;
+    display: block;
+    margin: 0 auto;
+    flex-direction: column;
+    position: relative;
+    /* justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column ; */
+     }
+    section {
+        border-color: white;
+        box-sizing: border-box;
+        border-style: solid;
+        border-top-width: 20px;
+        border-left-width: 20px;
+        border-right-width: 20px;
+        margin: 0 auto;
+        position: relative;
+        width: 100%;
+
+      }
+.mainscreen {
+    .hlop{
+        overflow: hidden;
+        height: 1600px;
+        position: relative;
+        object-fit: cover;
+        img {
+            margin-left: -400px;
+            margin-top: 200px;
+        }
+    }
+    }
+    .header {
+        h1 {
+            font-size: 150pt;
+            margin-top: -1610px;
+            margin-left: 33px;
+            color: #E24728;
+            transform: rotate(-10deg); /* Поворачиваем текст на 10 градусов */
+        }
+    }
+    .rotatetext{
+        h1 {
+            font-size: 40pt;
+            margin-top: 650px;
+            margin-left: 10px;
+            color: #EEE4D0;
+            transform: rotate(21deg); /* Поворачиваем текст на 21 градусов */
+        }
+        }
+        .version {
+            h1{ 
+                font-size: 80pt;
+                margin-top: 105px;
+                margin-left: 0px;
+                color: #EEE4D0;
+                transform: rotate(21deg); /* Поворачиваем текст на 21 градусов */
+            }
+        }
+        .stylefont {
+            h1{
+                font-size: 75pt;
+                margin-top: -40px;
+                margin-left: 440px;
+                color: #EEE4D0;
+                transform: rotate(20deg); /* Поворачиваем текст на 20 градусов */
+            }
+        }  
+        .year {
+            h1{
+                font-size: 75pt;
+                margin-top: -220px;
+                margin-left: 190px;
+                color: #EEE4D0;
+                transform: rotate(20deg); /* Поворачиваем текст на 20 градусов */
+            }
+        }
+         .film {
+            overflow-x: hidden;
+            height: 500px;
+        } 
+       
+        .film img{
+            margin-left: -25px; 
+            margin-top: 120px;
+            width: 100%;
+            width: 1440px;
+        }
+
+        .languages{
+            gap: 200px;
+            margin-top: -260px;
+            padding: 0px 100px;
+            display: flex;
+        }
+
+        .foreign1{
+
+            width: 200px;
+            color: #E24728;
+            font-size: 100px;
+            margin-top: -18px;
+        }
+
+        .dop{
+            margin-left: 50px;
+        }
+        .dop1{
+            margin-left: 50px;
+        }
+        .dop3{
+                margin-left: 20px;
+        }
+        .foreign{
+            display:inline-block;
+            width: 200px;
+            color: #E24728;
+            font-size: 100px;
+        }
