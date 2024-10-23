@@ -1,6 +1,6 @@
 html {
 background: #EADFC9;
-h1, h2, h3 {
+h1, h2, h3,p {
     font-family: "PEACESANS", sans-serif;
 }
 }
@@ -11,10 +11,6 @@ body {
     margin: 0 auto;
     flex-direction: column;
     position: relative;
-    /* justify-content: center;
-    align-items: center;
-    display: flex;
-    flex-direction: column ; */
      }
     section {
         border-color: white;
@@ -28,7 +24,7 @@ body {
         width: 100%;
 
       }
-.mainscreen {
+   .mainscreen {
     .hlop{
         overflow: hidden;
         height: 1600px;
@@ -41,55 +37,45 @@ body {
     }
     }
     .header {
-        h1 {
-            font-size: 150pt;
+             font-size: 150pt;
             margin-top: -1610px;
             margin-left: 33px;
             color: #E24728;
             transform: rotate(-10deg); /* Поворачиваем текст на 10 градусов */
-        }
     }
-    .rotatetext{
-        h1 {
+        .rotatetext h1{
             font-size: 40pt;
             margin-top: 650px;
             margin-left: 10px;
             color: #EEE4D0;
             transform: rotate(21deg); /* Поворачиваем текст на 21 градусов */
         }
-        }
-        .version {
-            h1{ 
-                font-size: 80pt;
+        .version h1 {
+            font-size: 80pt;
                 margin-top: 105px;
                 margin-left: 0px;
                 color: #EEE4D0;
                 transform: rotate(21deg); /* Поворачиваем текст на 21 градусов */
             }
-        }
-        .stylefont {
-            h1{
+                
+        .stylefont h1 {
                 font-size: 75pt;
                 margin-top: -40px;
                 margin-left: 440px;
                 color: #EEE4D0;
                 transform: rotate(20deg); /* Поворачиваем текст на 20 градусов */
-            }
         }  
-        .year {
-            h1{
+        .year h1{
                 font-size: 75pt;
                 margin-top: -220px;
                 margin-left: 190px;
                 color: #EEE4D0;
                 transform: rotate(20deg); /* Поворачиваем текст на 20 градусов */
-            }
         }
          .film {
             overflow-x: hidden;
             height: 500px;
         } 
-       
         .film img{
             margin-left: -25px; 
             margin-top: 120px;
@@ -105,7 +91,6 @@ body {
         }
 
         .foreign1{
-
             width: 200px;
             color: #E24728;
             font-size: 100px;
@@ -119,7 +104,7 @@ body {
             margin-left: 50px;
         }
         .dop3{
-                margin-left: 20px;
+            margin-left: 20px;
         }
         .foreign{
             display:inline-block;
@@ -127,3 +112,180 @@ body {
             color: #E24728;
             font-size: 100px;
         }
+        .language_block{
+            overflow: hidden;
+            /*background: fixed;*/
+            background-color: #E24728;
+            height: 1353px;
+            position: relative;
+            object-fit: cover;
+            margin-top: 86px;
+            padding: 90px;
+        }
+        .language_block p{
+            font-size: 100pt;
+            color: #EADFC9;
+            text-align: left;
+        }
+        .heading1 {
+         font-size: 100pt;
+         color: #EADFC9;
+         margin-top: 50px;
+         position: relative;
+         object-fit: cover;
+        }
+        .span1 {
+            
+            font-size: 60pt;
+            color: #EADFC9;
+            text-align: left;
+        }
+        .span2 {
+            font-size: 52pt;
+            color: #EADFC9;
+            text-align: left;
+        }
+        .cyrillic {
+            margin-top: 40px;
+            margin-bottom: 10px;
+        }
+        .latinic {
+            margin-top: 80px;
+            margin-bottom: 10px;
+        }
+        .cyrillic hr {
+            border: none; /* Убираем стандартную рамку */
+            display: block; 
+            margin-left: -0px;
+            height: 2px;  /* Устанавливаем толщину линии */
+            background-color: #EADFC9;  /* Цвет линии */
+            width: 1090px;  /* Ширина линии по горизонтали */
+        }
+        .latinic hr {
+            border: none; /* Убираем стандартную рамку */
+            display: block; 
+            margin-left: -0px;
+            height: 2px;  /* Устанавливаем толщину линии */
+            background-color: #EADFC9;  /* Цвет линии */
+            width: 1020px;  /* Ширина линии по горизонтали */
+        }
+        .wardrobe_bloke {
+            z-index: -1;
+            overflow: hidden;
+            height: 400px;
+            position: relative;
+            object-fit: cover;
+            margin-top: 20px;
+            margin-left: 1px;
+            margin-bottom: 200;
+            padding: 40px;
+            display: flex;  /* выравнивание по горизонтали */
+            justify-content: space-between;  /*расстояние между изображениями */
+            align-items: center;  /* Центрирование изображения по вертикали */
+        }
+        .number12 {
+        font-size: 80px;
+        margin-top: -160px;
+        margin-left: 70px;
+        color:#EADFC9;
+        }
+        .number49 {
+        font-size: 80px;
+        margin-top: -85px;
+        margin-left: 335px;
+        color:#EADFC9;
+        }
+        .number78 {
+            font-size: 80px;
+            margin-top: -85px;
+            margin-left: 515px;
+            color:#EADFC9;
+        }
+        .number63 {
+            font-size: 80px;
+            margin-top: -80px;
+            margin-left: 785px;
+            color:#EADFC9;
+        }
+        .number82 {
+            font-size: 80px;
+            margin-top: -78px;
+            margin-left: 960px;
+            color:#EADFC9;
+        }
+        .number05 {
+            font-size: 80px;
+            margin-top: -80px;
+            margin-left: 1234px;
+            color:#EADFC9;
+        }
+        .afisha_block{ 
+            margin-top: 100px;
+            background-color: #4A3B37;
+            overflow: hidden;
+            height: 1760px;
+           
+
+        }
+        .afisha_block h1{ 
+            font-size: 90pt;
+            color: #EADFC9;
+            margin-top: 100px;
+            position: relative;
+            object-fit: cover;
+            text-align: center;
+        }
+        .afisha_block img {
+            position: relative;
+            justify-content: space-between;
+        }
+        .posters {
+            position: relative;
+            display: flex;
+            margin-top: -1353px;
+            margin-right: 90px;
+            margin-left: 90px;
+            justify-content: space-between;  /*расстояние между изображениями */
+
+        }
+        .table {
+            position: relative;
+            margin-top: -100px;
+            margin-left: -40px;
+        }
+        .table img {
+            z-index: -1;
+
+        }
+        .lamps {
+            position: relative;
+            display: flex;
+            margin-top: 100px;
+            margin-left: 90px;
+            gap: 100px;
+            width: 1200px;
+            align-items: center;
+            z-index: 1;
+        }
+        
+        .language_list p{
+            font-size: 20pt;
+            color: #EADFC9;
+            z-index: 1;
+            margin-left: 200px;
+            position: relative;
+            margin-top: -450px;
+            line-height: -50%;
+        }
+        
+
+
+        
+        
+        
+    
+    
+        
+        
+    
+        
