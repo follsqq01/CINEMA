@@ -1,4 +1,6 @@
 @font-face {
-font-family: PEACESANS; /* название шрифта */
-src: url(PEACESANS.ttf);
+    font-family: "PEACESANS" ;
+    src: url("../fonts/PeaceSans.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
 }
