@@ -49,7 +49,7 @@ html {
         transform: rotate(21deg); /* Поворачиваем текст на 21 градусов */
     }
             .version h1 {
-                font-size: 80pt;
+                font-size: 100px;
                     margin-top: 105px;
                     margin-left: 0px;
                     color: #EADFC9;
@@ -57,14 +57,14 @@ html {
                 }
                     
             .stylefont h1 {
-                    font-size: 75pt;
+                    font-size: 100px;
                     margin-top: -40px;
                     margin-left: 440px;
                     color: #EADFC9;
                     transform: rotate(20deg); /* Поворачиваем текст на 20 градусов */
             }  
             .year h1{
-                    font-size: 75pt;
+                    font-size: 100px;
                     margin-top: -220px;
                     margin-left: 190px;
                     color: #EADFC9;
@@ -182,12 +182,11 @@ html {
                 overflow: hidden;
                 height: 400px;
                 position: relative;
-                object-fit: cover;
                 margin-top: 20px;
                 margin-left: 1px;
                 margin-bottom: 200;
                 padding: 40px;
-                display: flex;  /* выравнивание по горизонтали */
+                display: flex; 
                 justify-content: space-between;  /*расстояние между изображениями */
                 align-items: center;  /* Центрирование изображения по вертикали */
             }
@@ -279,7 +278,7 @@ html {
                 z-index: 1;
             }
             .board p{
-                font-size: 22pt;
+                font-size: 29px;
                 color:#EADFC9;
                 z-index: 1;
                 margin-left: 200px;
@@ -288,13 +287,13 @@ html {
                 line-height: 40px;
             }
             .popcorn h1{
-                font-size: 50pt;
+                font-size: 67px;
                 margin-top: 305px;
                 margin-left: 1062px;
                 color: #E24728;
             }
             .popcorn p{
-                font-size: 25pt;
+                font-size: 33px;
                 margin-top: -5px;
                 margin-left: 1040px;
                 color:#E24728;
@@ -307,10 +306,8 @@ html {
                 margin-left: -10px;
             }
             .film2 img{
-                overflow: hidden;
                 width: 1400px;
                 margin-left: 10px;
-                overflow: hidden;
             }
             .foreign_lang{
                 gap: 200px;
@@ -348,7 +345,7 @@ html {
                 margin-top: -206px;
             }    
             .glifs h1{
-                font-size: 90pt;
+                font-size: 120px;
                 color: #EADFC9;
                 margin-top: 80px;
                 padding-left: 90px;
@@ -359,7 +356,6 @@ html {
                 margin-top: 85px;
                 margin-left: -29px;
             }
-    
             .specials {
                 overflow: hidden;
                 background-color: #EADFC9;
@@ -373,15 +369,15 @@ html {
             }
             .first_text{
                 color: #EADFC9;
-                font-size: 50px;
+                font-size: 40px;
                 margin-top: -250px;
                 margin-left: -600px;
                 text-align: center
             }
             .second_text {
                 color: #EADFC9;
-                font-size: 50px;
-                margin-top: -100px;
+                font-size: 40px;
+                margin-top: -90px;
                 margin-left: 600px;
                 text-align: center
             }
@@ -410,7 +406,7 @@ html {
                 font-size: 40px;
                 z-index: 3;
                 margin-top: 0px;
-                margin-top: -850px;
+                margin-top: -800px;
                 margin-left: 100px;
                 line-height: 1.3;
                 color: #4A3B37;
@@ -428,9 +424,9 @@ html {
             }
            .ligatura h1 {
             color: #EADFC9;
-            margin-top: -3850px;
-            margin-left: 995px;
-            font-size: 90px;
+            margin-top: -3840px;
+            margin-left: 1050px;
+            font-size: 80px;
             white-space: nowrap;
             transform: rotate(-24deg)
            }
